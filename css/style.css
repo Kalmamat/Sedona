@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    position: relative;
+    display: flex;
+}
+.header_logo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
+.container{
+    max-width: 1200px;
+
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    width: 1056px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+.nav_left{
+
+    margin: 15px 0;
+}
+.nav_left a{
+    margin-right: 147px;
+}
+.nav_right{
+    margin: 15px 0;
+}
+.nav_right a{
+    margin-left: 147px;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    background: url("../images/background photo.png") no-repeat center/cover;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.hero_title_welcome{
+    color: #81B3D3;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.hero_subtitle{
+    color: #766458;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    position: relative;
+}
+.hero_subtitle::before{
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #766458;
+    width: 28px;
+    Height: 2px;
+    top: 15px;
+    left: -40px;
+}
+.hero_subtitle::after{
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #766458;
+    width: 28px;
+    Height: 2px;
+    top: 15px;
+    right: -40px;
+}
+.hero_title{
+    font-family: 'Coda Caption', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 120px;
+}
+.wave{
+    position: absolute;
+    bottom: -5px;
+    min-width: 100%;
+}
+.hero_desc{
+    font-family: 'Satisfy', cursive;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+.wave img {
+    width: 100%;
+}
+.sedona{
+   display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 51px;
+}
+.sedona_text{
+    Height: 80px;
+   width: 470px;
+    margin: 42px 0 16px 0;
+}
+.title_sedona{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+
+.desc_sedona{
+    margin-top: 16px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+.title_city{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+}
+.sedona_city{
+    display: flex;
+    color: white;
+
+
+}
+.city_colm{
+    background-color: #81B3D2;
+    width: 33.3333%;
+    text-align: center;
+    padding: 47px 51px 54px 52px;
+
+}
+.title_city{
+    margin: 25px 0 23px 0;
+}
+.city_colm_img{
+    width: 66.666%;
+    background: url("../images/image.png")no-repeat center/cover;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.col_4{
+    text-align: center;
+    width: 33.333%;
+
+}
+.house{
+    margin: 64px 62px 82px 73px;
+}
+.food{
+    margin: 64px 62px 82px 73px;
+}
+.soviniers{
+    margin: 64px 62px 82px 73px;
+}
+.mountain{
+    width: 66.666%;
+    background: url("../images/image (1).png")no-repeat center/cover;
+}
+.mountain_text{
+    background-color: #81B3D2;
+    width: 33.3333%;
+    text-align: center;
+    padding: 47px 51px 54px 52px;
+}
+.icon-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    padding: 24px 0 25px;
+}
+.about{
+
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+.title_our{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin: 47px 0 25px;
+}
+.desc_our{
+    margin: 23px 0 54px;
+}
+.location{
+    text-align: center;
+}
+.title_location{
+    margin: 58px 0 30px;
+}
+.desc_location{
+    margin-bottom: 120px;
+}
+.maps{
+    position: relative;
+}
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px 0 111px;
+    padding: 30px;
+}
+.number{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+.footer_icons{
+    padding: 10px 12px;
+    background-color: #81B3D2;
+    margin: 1px;
+}
+.icon{
+    display: flex;
+
+}
+.website{
+    text-align: center;
+}
